@@ -1,0 +1,673 @@
+.contact{
+  height: 100vh;
+  /* padding-top: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #000000, #363636); */
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  /* padding-bottom:0px; */
+  background-image: url("../lightroof.jpg");
+}
+/* *
+{
+  margin: 0;
+  padding: 0;
+} */
+.container{
+  /* background-color: #B2D3EB;
+  background-repeat: no-repeat;
+  color: white;
+  box-shadow: 0 0 30px 15px #37383D;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  width: 80%;
+  text-align: center; */
+  max-width: 700px;
+  height: auto;
+  width: 100%;
+  /* background: #fff; */
+  /* background: linear-gradient(135deg, #000000, #363636); */
+  background: black;
+  padding: 25px 30px;
+  border-radius: 5px;
+  padding-bottom: 50px;
+  box-shadow: 0px 0px 5px 1px white;
+}
+.user-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+.user-details select{
+  width: 425px;
+  /* color: #5C5C5C; */
+  /* color: white; */
+}
+.form{
+  margin: 30px;
+}
+.input-field{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 14px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.textarea-field{
+  height: 150px;
+  padding-top: 10px;
+}
+.contact-btn{
+  border-radius: 20px;
+  /* color: #fff; */
+  /* color: white; */
+  margin-top: 18px;
+  height: 50px;
+  width: 200px;
+  padding: 2px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.contact-btn:hover{
+  transform: scale(1.1);
+}
+/* .form{
+  padding-top: 20px;
+  display: flex;
+}
+.text-box{
+  font-weight: 500;
+  font-size: 16px;
+}
+.text-box input{
+  width: 20vh;
+  height: 150px;
+} */
+.container .title{
+  /* padding: 50px; */
+  font-size: 36px;
+  font-weight: 500;
+  position: relative;
+  color: white;
+}
+.container .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 50px;
+  background: linear-gradient(135deg, #737373, #EDD3C5);
+}
+/* .user-details{
+  width: 100%;
+} */
+/* .user-details .input-box{
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+} */
+
+/* img{
+  width: 640px;
+  height: 100%;
+  margin-top: 0;
+  float: right;
+} */
+
+/* @media screen and (max-width: 641px){
+  .contact{
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .container{
+    max-width: 700px;
+    height: auto;
+    width: 75%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 108%;
+  }
+  .form{
+    margin: 30px;
+  }
+  .input-field{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  .textarea-field{
+    height: 75px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 18px;
+  }
+  .container .title{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+} */
+
+@media screen and (max-width: 2020px) and (min-width: 1441px){
+  .contact{
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 425px;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 18px;
+  }
+  .container .title{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px){
+  .contact{
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 425px;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 18px;
+  }
+  .container .title{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+  .contact{
+    height: 100vh;
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 425px;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 18px;
+  }
+  .container .title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) and (max-height: 1400px) and (min-height: 950px){
+  .contact{
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container{
+    max-width: 700px;
+    height: 650px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 425px;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 18px;
+  }
+  .container .title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width: 426px) and (max-height: 1500px){
+  .contact{
+    height: 1024px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 95%;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 16px;
+  }
+  .container .title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width: 426px) and (max-height: 800px) and (min-height: 629px){
+  .contact{
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container{
+    max-width: 700px;
+    height: 480px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 95%;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 16px;
+  }
+  .container .title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width:425px) and (min-width: 376px){
+  .contact{
+    height: 915px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 0px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 95%;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 16px;
+  }
+  .container .title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 321px){
+  .contact{
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 95%;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 16px;
+  }
+  .container .title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .contact{
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .container{
+    max-width: 700px;
+    height: 500px;
+    width: 75%;
+    margin-top: 50px;
+    padding: 25px 20px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  .user-details select{
+    width: 95%;
+  }
+  .form{
+    margin: 10px;
+  }
+  .input-field{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  .textarea-field{
+    height: 60px;
+    padding-top: 10px;
+  }
+  .contact-btn{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    font-size: 14px;
+  }
+  .container .title{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+.bulk{
+  /* background-color: #303030; */
+  margin-top: -65px;
+  position: fixed bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF50;
+  font-size: 20px;
+}
+@media screen and (max-width: 650px){
+  .bulk{
+    font-size: 14px;
+  }
+}
