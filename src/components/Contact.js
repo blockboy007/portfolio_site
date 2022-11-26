@@ -6,18 +6,13 @@ function Contact() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [phone, setPhone] = useState();
-  const [date, setDate] = useState();
-  const [eventType, setEventType] = useState();
   const [body, setBody] = useState();
-  const [openModal, setOpenModal] = useState(false);
   const [response, setResponse] = useState(false);
 
   var jsonData = {
     "name": name,
     "email": email,
     "phone": phone,
-    "date": date,
-    "eventType": eventType,
     "body": body
   }
 
@@ -30,12 +25,7 @@ function Contact() {
   function handlePhone(e) {
     setPhone(e.target.value);
   };
-  function handleDate(e) {
-    setDate(e.target.value);
-  };
-  function handleEventType(e) {
-    setEventType(e.target.value);
-  };
+
   function handleBody(e) {
     setBody(e.target.value);
   };
@@ -58,12 +48,6 @@ function Contact() {
     .then(setResponse(true));
   }
 
-  function onOpenModal(e) {
-    setOpenModal(true);
-  }
-  function onCloseModal(e) {
-    setOpenModal(false);
-  }
 
   // function modal(e) {
   //   (e.trigger) ? (
@@ -105,13 +89,6 @@ function Contact() {
           <input type="text" onChange={handleName} className="input-field" placeholder="Enter your name *" required />
           <input type="email" onChange={handleEmail} className="input-field" placeholder="Enter your email *" required />
           <input type="tel" onChange={handlePhone} className="input-field" placeholder="Enter your phone number" pattern="[0-9]{10}" maxlength="13"/>
-          <input type="date" onChange={handleDate} className="input-field"  placeholder="Date"/>
-          <select type="option" onChange={handleEventType} className="input-field">
-            <option value="" required>--Please choose an option-- *</option>
-            <option value="Wedding">Wedding</option>
-            <option value="Birthday">Birthday Party</option>
-            <option value="Other">Other Event</option>
-          </select>
           <textarea type="text" onChange={handleBody} className="input-field textarea-field" placeholder="Type message here" />
           {response ? submittedButton : unSubmittedButton}
 
