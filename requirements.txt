@@ -1,4 +1,4 @@
-python --version
+python 3.8.4
 aniso8601==9.0.1
 Automat==20.2.0
 beautifulsoup4
