@@ -86,7 +86,7 @@ function Portfolio() {
           <h1>Events Site</h1>
           <div className="portfolioLinkImage">
             <img className="projectImage" src={eventImage} alt=""/>
-            <div className='shadow'/>
+            <div id="event-shadow" className='shadow'/>
           </div>
           <div className="hoveredLinks">
             {hoverTwo && weddingSite}
@@ -108,7 +108,7 @@ function Portfolio() {
           <h1>Excavation Site</h1>
           <div className="portfolioLinkImage">
             <img src={dirtImage} alt=""/>
-            <div className='shadow'/>
+            <div id="exc-shadow" className='shadow'/>
           </div>
           <div className="hoveredLinks">
             {hoverThree && weddingSite}
