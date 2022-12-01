@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7796693d.css",
-    "main.js": "/static/js/main.f09a4253.js",
+    "main.css": "/static/css/main.2bbc7a66.css",
+    "main.js": "/static/js/main.ce34b903.js",
     "static/media/mountains.jpg": "/static/media/mountains.98664e295a7d2d25e44a.jpg",
     "static/media/excavation.jpg": "/static/media/excavation.cbe6a038312a09f44868.jpg",
     "static/media/space.jpg": "/static/media/space.5f932a4092e466438779.jpg",
@@ -11,11 +11,11 @@
     "static/media/lightroof.jpg": "/static/media/lightroof.5fe37643b62e4e0e50f2.jpg",
     "static/media/nft-app.png": "/static/media/nft-app.e4861715d269357bb85a.png",
     "index.html": "/index.html",
-    "main.7796693d.css.map": "/static/css/main.7796693d.css.map",
-    "main.f09a4253.js.map": "/static/js/main.f09a4253.js.map"
+    "main.2bbc7a66.css.map": "/static/css/main.2bbc7a66.css.map",
+    "main.ce34b903.js.map": "/static/js/main.ce34b903.js.map"
   },
   "entrypoints": [
-    "static/css/main.7796693d.css",
-    "static/js/main.f09a4253.js"
+    "static/css/main.2bbc7a66.css",
+    "static/js/main.ce34b903.js"
   ]
 }
