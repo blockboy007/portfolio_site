@@ -62,7 +62,7 @@ function Portfolio() {
   const excavationSite = (
     <div id="multipleIcons">
       <div className="siteLinks">
-        <a className="icon" href="https://www.tristaanne.com">
+        <a className="icon" href="https://funny-souffle-0d25f8.netlify.app/">
           <i className="fas fa-globe"></i>
         </a>
         To Website
