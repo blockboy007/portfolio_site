@@ -111,7 +111,7 @@ function Portfolio() {
             <div id="exc-shadow" className='shadow'/>
           </div>
           <div className="hoveredLinks">
-            {hoverThree && weddingSite}
+            {hoverThree && excavationSite}
           </div>
         </div>
 
