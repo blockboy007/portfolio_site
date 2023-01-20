@@ -75,7 +75,7 @@ body.portfolioBody{
   z-index: -1;
 }
 #nft-shadow{
-  transform: translate(0,75px);
+  transform: translate(0,50px);
 }
 .portfolioLink:hover .shadow{
   z-index: 0;
