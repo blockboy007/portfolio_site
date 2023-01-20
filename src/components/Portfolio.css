@@ -52,7 +52,7 @@ body.portfolioBody{
 
 }
 #app-site{
-  transform: translateY(-75px);
+  transform: translateY(-50px);
 }
 .portfolioLinkImage{
   width: 60vh;
