@@ -37,7 +37,7 @@ function Portfolio() {
 
   const nftAppLink = (
     <div className="hoveredIcon">
-      <a className="icon" href="https://github.com/blockboy007">
+      <a className="icon" href="https://github.com/blockboy007/NFT-Viewer-app">
         <i className="fab fa-github"></i>
       </a>
       See code
@@ -46,13 +46,13 @@ function Portfolio() {
   const weddingSite = (
     <div id="multipleIcons">
       <div className="siteLinks">
-        <a className="icon" href="https://www.tristaanne.com">
+        <a className="icon" href="https://bucolic-tanuki-05f20f.netlify.app/">
           <i className="fas fa-globe"></i>
         </a>
         To Website
       </div>
       <div className="siteLinks">
-        <a className="icon" href="https://github.com/blockboy007">
+        <a className="icon" href="https://github.com/blockboy007/events_site">
           <i className="fab fa-github"></i>
         </a>
         See code
@@ -68,7 +68,7 @@ function Portfolio() {
         To Website
       </div>
       <div className="siteLinks">
-        <a className="icon" href="https://github.com/blockboy007">
+        <a className="icon" href="https://github.com/blockboy007/ANK-Excavation">
           <i className="fab fa-github"></i>
         </a>
         See code

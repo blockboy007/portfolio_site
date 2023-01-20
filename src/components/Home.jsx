@@ -25,7 +25,7 @@ function Home() {
                 <a className="btn" href="https://www.linkedin.com/in/luke-reardon-333b001a6/">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a className="btn" href="https://twitter.com/willbeebe007">
+                <a className="btn" href="https://twitter.com">
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a className="btn" href="#">
